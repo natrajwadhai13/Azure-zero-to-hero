@@ -48,10 +48,15 @@ Operates at Layer 7 (Application layer) of the OSI model.
 Provides advanced application-level routing, SSL termination, and web application firewall (WAF) capabilities.
 Suited for distributing traffic based on application awareness.
 
+• 	Use Azure App Gateway when you need web-specific features like URL routing, SSL offloading, or WAF.
+
 #### Azure Load Balancer:
 Operates at Layer 4 (Transport layer) of the OSI model.
 Distributes network traffic based on IP address and port.
 Suitable for generic TCP/UDP load balancing without application-specific features.
+
+• 	Use Azure LB when you just need to spread traffic evenly at the network level.
+
 
 ### Assume your company is using all the ideal Azure Networking setup and your application is deployed in the web subnet , Explain the traffic flow to your app ?
 
