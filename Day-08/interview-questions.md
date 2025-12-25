@@ -5,9 +5,11 @@ ASGs are applied to VMs and are used in conjunction with NSGs. By associating an
 ASGs simplify the management of security rules in a multi-tier application by grouping VMs that belong to the same application tier. This makes it easier to apply and manage security policies for a specific application.
 
 • 	NSG (Network Security Group) = A firewall with rules that allow or block traffic to/from Azure resources.
+
 • 	ASG (Application Security Group) = A way to group virtual machines (VMs) logically so you can apply NSG rules to the group instead of individual VMs.
 
 • 	NSG = The actual rules.
+
 • 	ASG = Makes managing those rules easier by grouping machines.
 
 ### How can you block the access to a your vm from a subnet ?
